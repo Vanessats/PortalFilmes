@@ -1,0 +1,12 @@
+.navbar{
+    background-color: gray !important;
+}
+
+#lancamentos p {
+    font-size: medium;
+    
+}
+
+.checked {
+    color: orange;
+  }

@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="estilo.css">
+  <title></title>
+</head>
+
+<body>
+
+
+  <!--Barra de pesquisa-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img src="logo.png" width="80" height="80" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+      aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">lançamentos <span class="sr-only">(página atual)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">em destaque</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">avaliações</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">entrevistas & making of</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">novidades</a>
+        </li>
+        <li class="nav-item dropdown">
+
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Ação</a>
+            <a class="dropdown-item" href="#">Outra ação</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Algo mais aqui</a>
+          </div>
+        </li>
+
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar Filme" aria-label="Pesquisar">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+      </form>
+    </div>
+  </nav>
+
+
+  <!--Lançamentos-->
+  <section id="lancamentos">
+    <h1>
+      <center>
+        <font color="#565656">Lançamentos</font>
+      </center>
+    </h1>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/jfVTJm9NilA" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe> </div>
+        <div class="col">
+          <h2 id="title" class="lançamentos d-inline">
+            Coringa
+          </h2>
+          <p><b>Sinopse:</b> Isolado, intimidado e desconsiderado pela sociedade, o fracassado comediante Arthur Fleck
+            inicia seu caminho como uma mente criminosa após assassinar três homens em pleno metrô. Sua ação inicia um
+            movimento popular contra a elite de Gotham City, da qual Thomas Wayne é seu maior representante.</p>
+
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <b>Diretor:</b> Todd Phillips
+              </div>
+              <div class="col">
+                <b>Roteiro</b> Scott Silver
+              </div>
+              <div class="col">
+                <b>Estreia:</b> 2020
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <b>Elenco:</b>
+              </div>
+            </div>
+            <div class="col">
+              Joaquin Phoenix | Robert De Niro | Zazie Beetz
+            </div>
+            <div class="col">
+              <b>Avaliação:</b>
+            </div>
+            <div class="col">
+              <!-- Add icon library -->
+              <link rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+  <!--Em destaque-->
+
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h3>
+          <font color="#565656"><br>Em destaque</font>
+        </h3>
+      </div>
+      <div align="right" class="col">
+        <select class="mt-4" name="categoria" id="categoria">
+
+          <option> Categoria: TODOS</option>
+          <option value="Aventura">Aventura</option>
+          <option value="Romance">Romance</option>
+          <option value="Comédia">Comédia</option>
+
+        </select>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <img src="aves de rapina.jpg" width="206" height="305" alt="">
+      </div>
+      <div class="col">
+        <img src="mm.jfif" width="206" height="305" alt="">
+      </div>
+      <div class="col">
+        <img src="viuva negra.jpg" width="206" height="305" alt="">
+      </div>
+      <div class="col">
+        <img src="1917.jpg" width="206" height="305" alt="">
+      </div>
+
+    </div>
+
+    <div align="right" class="mt-4">
+      <button type="button" class="btn btn-secondary">+ Carregar mais Filmes</button>
+    </div>
+
+
+
+    <!--Últimas Avaliações-->
+
+    <h4>
+      <font color="#565656"><br>Últimas Avaliações</font>
+    </h4>
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <img src="icon1.jpg" alt="Avatar" style="width:20%">
+          <div class="container">
+            <h4><b>Ellie</b></h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci dolore repellat nihil ratione, rerum
+              totam asperiores aut optio quaerat deleniti exercitationem aperiam et. Ducimus veniam eos consequuntur
+              ipsa consectetur nemo.</p>
+          </div>
+          <div class="col">
+            <!-- Add icon library -->
+            <link rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+        </div>
+        <div class="col">
+          <img src="icon2.jfif" alt="Avatar" style="width:20%">
+          <div class="container">
+            <h4><b>Bob</b></h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci dolore repellat nihil ratione, rerum
+              totam asperiores aut optio quaerat deleniti exercitationem aperiam et. Ducimus veniam eos consequuntur
+              ipsa consectetur nemo.</p>
+          </div>
+          <div class="col">
+            <!-- Add icon library -->
+            <link rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+          </div>
+        </div>
+        <div class="col">
+          <img src="icon3.jpg" alt="Avatar" style="width:20%">
+          <div class="container">
+            <h4><b>Peter</b></h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci dolore repellat nihil ratione, rerum
+              totam asperiores aut optio quaerat deleniti exercitationem aperiam et. Ducimus veniam eos consequuntur
+              ipsa consectetur nemo.</p>
+          </div>
+          <div class="col">
+            <!-- Add icon library -->
+            <link rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+        </div>
+      </div>
+
+      <div align="right" class="mt-4">
+        <button type="button" class="btn btn-secondary">+ Carregar mais Avaliações</button>
+      </div>
+
+      <!--Entrevista & MakingOf-->
+
+      <h1>
+        <center>
+          <font color="#565656">Entrevistas & MakingOf</font>
+        </center>
+      </h1>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <iframe width="250" height="250" src="https://www.youtube.com/embed/mox0_xGO-Do" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+            <br>
+            <b>Filme:</b> Coringa
+            <br>
+            <b>Diretor:</b> Todd Phillips
+            <b>Estreia</b> 2020
+          </div>
+          <div class="col">
+            <iframe width="250" height="250" src="https://www.youtube.com/embed/cHsIFH9R7y0" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+            <br>
+            <b>Filme:</b> Aves de Rapina
+            <br>
+            <b>Diretor:</b> Cathy Yan
+            <b>Estreia</b> 2020
+          </div>
+          <div class="col">
+            <iframe width="250" height="250" src="https://www.youtube.com/embed/kMBnvz-dEXw" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+            <br>
+            <b>Filme:</b> 1917
+            <br>
+            <b>Diretor:</b> Sam Mendes
+            <b>Estreia</b> 2020
+          </div>
+        </div>
+
+        <div align="right" class="mt-4">
+          <button type="button" class="btn btn-secondary">+ Carregar mais Filmes</button>
+        </div>
+
+        <!--Novidades-->
+        <h1>
+          <center>
+            <font color="#565656">Novidades</font>
+          </center>
+        </h1>
+
+        <div class="container">
+          <div class="row">
+            <div class="card">
+              <img src="materia2.jpg" alt="" style="width:30%">
+              <div class="container">
+                <h4><b>Viúva Negra | Tudo o que sabemos sobre o filme, até agora: </b></h4>
+                <p>A próxima adição ao Universo Cinematográfico Marvel em constante expansão é Viúva Negra, uma aventura
+                  solo para a falecida vingadora Natasha Romanoff. Vingadores: Ultimato – e seu predecessor Guerra
+                  Infinita – destruiu os fãs com várias mortes notáveis, algumas das quais se mostraram permanentes,
+                  entre elas a morte da Viúva Negra pode ser a mais divisiva, já que muitos acham que seu sacrifício
+                  veio muito rápido, facilmente e poderia ter sido evitado de alguma forma. Isso doeu especialmente
+                  depois que o último filme dos Vingadores apresentou uma Nat madura e como uma líder. </p>
+              </div>
+            </div>>
+
+            <div class="card">
+              <img src="materia1.jpg" alt="" style="width:30%">
+              <div class="container">
+                <h4><b>Pandemia antecipa chegada de "Aves de Rapina" nas plataformas digitais: </b></h4>
+                <p>A pandemia do coronavírus foi responsável pela antecipação da chegada de Aves de Rapina nos serviços
+                  digitais. As datas foram alteradas no Brasil seguindo o exemplo do que foi feito nos Estados Unidos. A
+                  produção chegou aos cinemas de todo o mundo em fevereiro deste ano, há menos de dois meses. Embora não
+                  possa ser considerado um grande fenômeno dos cinemas mundiais, Aves de Rapina é um sucesso, acima de
+                  tudo por conta da grande popularidade de Arlequina. O longa-metragem estrelado pela atriz Margot
+                  Robbie finalmente poderá ser visto diretamente de casa. A informação foi divulgada pela Warner Bros.
+                  Home Entertainment. </p>
+              </div>
+            </div>
+
+            <div class="card">
+              <img src="materia3.jpg" alt="" style="width:30%">
+              <div class="container">
+                <h4><b>MULHER MARAVILHA 1984 | Diana mostra armadura dourada em capa de revista: </b></h4>
+                <p>No mês em que Mulher-Maravilha 1984 deveria chegar aos cinemas, a edição colombiana da revista
+                  Rolling Stone colocou a amazona vivida por Gal Gadot em sua capa. </p>
+              </div>
+            </div>
+          </div>
+
+          <!--Sobre-->
+
+          <h1>
+            <center>
+              <font color="#565656">Sobre</font>
+            </center>
+          </h1>
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed, eum voluptate dignissimos quidem itaque,
+                esse fuga a neque quae fugit alias! Dolorem nisi iusto illum provident dolore nemo tempora fugiat quo,
+                earum assumenda non voluptas esse est architecto iste! Cumque nemo molestias soluta consectetur
+                consequatur! Consequuntur, illo. Optio, commodi amet.
+              </div>
+            </div>
+          </div>
+
+          <!--Editorial-->
+          <h1>
+            <center>
+              <font color="#565656">Editorial</font>
+            </center>
+          </h1>
+
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <img src="iconee.png" alt="Avatar" style="width:10%">
+                <div class="container">
+                  <h4><b>Redação</b></h4>
+                  <p>Vanessa Taynara Soares</p>
+                </div>
+
+              </div>
+              <div class="col">
+                <img src="iconee.png" alt="Avatar" style="width:10%">
+                <div class="container">
+                  <h4><b>Pesquisa</b></h4>
+                  <p>Vanessa Taynara Soares</p>
+                </div>
+
+                <div class="col">
+                  <img src="iconee.png" alt="Avatar" style="width:10%">
+                  <div class="container">
+                    <h4><b>Gerente Geral</b></h4>
+                    <p>Vanessa Taynara Soares</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Redes Sociais-->
+          <h1>
+            <center>
+              <font color="#565656">Redes Sociais</font>
+            </center>
+          </h1>
+
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <img src="tt.png" alt="Avatar" style="width:40%">
+                </div>
+                <div class="col">
+                  <img src="fb.png" alt="Avatar" style="width:70%">
+                  </div>
+                  <div class="col">
+                    <img src="ig.png" alt="Avatar" style="width:60%">
+                    </div>
+            </div>
+          </div>
+
+
+                <!-- Optional JavaScript -->
+                <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+                <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+                  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+                  crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+                  integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+                  crossorigin="anonymous"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+                  integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+                  crossorigin="anonymous"></script>
+</body>
+
+</html>
